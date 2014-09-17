@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wolf Twitter\n"
+"POT-Creation-Date: 2013-07-28 16:17+0100\n"
+"PO-Revision-Date: 2013-07-28 16:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: wpwolf.com <support@wpwolf.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../update.php:59
+#, php-format
+msgid "There is a new version of %s plugin available."
+msgstr ""
+
+#: ../update.php:60
+#, php-format
+msgid "You have version %s installed."
+msgstr ""
+
+#: ../update.php:62
+#, php-format
+msgid "Update to version %s"
+msgstr ""
+
+#: ../update.php:129
+msgid "Hide permanently"
+msgstr ""
+
+#: ../wolf-twitter-widget.php:26
+msgid "Display your latest tweets"
+msgstr ""
+
+#: ../wolf-twitter-widget.php:74
+msgid "Twitter Feed"
+msgstr ""
+
+#: ../wolf-twitter-widget.php:79
+msgid "Title"
+msgstr ""
+
+#: ../wolf-twitter-widget.php:83
+msgid "Your Twitter username"
+msgstr ""
+
+#: ../wolf-twitter-widget.php:87
+msgid "Number of tweets"
+msgstr ""
+
+#: ../wolf-twitter.php:72
+#, php-format
+msgid ""
+"Our Twitter feed is currently unavailable but you can visit our official "
+"twitter page  <a href=\"%1s\" target=\"_blank\">%2s</a>."
+msgstr ""
+
+#: ../wolf-twitter.php:155 ../wolf-twitter.php:174
+msgid "about"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "second"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "minute"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "hour"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "day"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "week"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "month"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "year"
+msgstr ""
+
+#: ../wolf-twitter.php:222
+msgid "decade"
+msgstr ""
+
+#: ../wolf-twitter.php:227
+msgid "ago"
+msgstr ""

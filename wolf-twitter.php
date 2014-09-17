@@ -136,7 +136,7 @@ class Wolf_Twitter {
 
 		if ( $data && is_array( $data ) ) {
 			/* Display as list */
-			if ( $list) {
+			if ( $count > 1) {
 				if ( isset( $data[0] ) ) {
 					$tweet .= "<ul class=\"wolf-tweet-list\">"; 
 					for ( $i=0; $i<$count; $i++ ) {
@@ -231,13 +231,16 @@ class Wolf_Twitter {
 	/**
 	 * Shortcode
 	 */ 
-	function shortcode( $atts) {
+	function shortcode($atts) {
 
 		extract(shortcode_atts(array(
-			'username'  => 'wp_wolf'
+			'username'  => 'wp_wolf',
+			'count'	=> '2'
 		), $atts) );
 
-		return $this->twitter( $username, 1, false);	
+		return $this->twitter( $username, $count, true);
+		//KD edit to allow mutiple tweets in shortcode
+		//return $this->twitter( $username, 1, false);
 	}
 
 	// --------------------------------------------------------------------------
